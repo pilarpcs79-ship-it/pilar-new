@@ -1,0 +1,63 @@
+<section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Galeri Perusahaan</h2>
+            <p class="text-center text-muted mb-5">Dokumentasi operasional dan layanan logistik kami secara real-time.</p>
+            
+            <div class="row g-3">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="img/air-freight.jpg" class="img-fluid rounded shadow-sm" alt="Air Freight Ops" data-bs-toggle="modal" data-bs-target="#imageModal1">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="img/sea-freight.jpg" class="img-fluid rounded shadow-sm" alt="Sea Freight Ops">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="img/warehouse.jpg" class="img-fluid rounded shadow-sm" alt="Warehousing">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="img/trucking.jpg" class="img-fluid rounded shadow-sm" alt="Land Trucking">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="img/customs.jpg" class="img-fluid rounded shadow-sm" alt="Custom Clearance">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="img/packaging.jpg" class="img-fluid rounded shadow-sm" alt="Packaging Services">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="img/mtc-batam.jpg" class="img-fluid rounded shadow-sm" alt="MTC Batam Location">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="gallery-item">
+                        <img src="img/office.jpg" class="img-fluid rounded shadow-sm" alt="PT Pilar Team">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .gallery-item img {
+            cursor: pointer;
+            transition: transform 0.3s ease, filter 0.3s ease;
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.05);
+            filter: brightness(80%);
+        }
+    </style>
